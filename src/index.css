@@ -1,0 +1,63 @@
+body {
+    background-color: lightsteelblue;
+    min-width: 1200px;
+    /*max-width: 1200px;*/
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+div {
+    color: white;
+    background-color: 009900;
+    margin: 2px;
+    font-size: 25px;
+}
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-direction: row;
+    flex-flow: column;
+    border: 2;
+    border-width: 5px;
+    border-color: red;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+}
+
+.flex-item {
+    padding: 5px;
+    height: 100px;
+    background-color: lightseagreen;
+    margin-bottom: 30;
+    border: 2;
+    border-color: red;
+}
+
+nav ul li {
+    display: inline;
+    padding: 2px;
+    text-decoration: none;
+    color: green;
+    border: solid 2px darkgray;
+    margin: 30px 30px 30px 20px;
+    background-color: lightgreen;
+}
+
+.menu {
+    padding-left: 15px;
+    text-decoration: blue;
+    color: violet;
+}
