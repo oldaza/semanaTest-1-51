@@ -1,6 +1,6 @@
 {
     "name": "introduccion-html-semana-1",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Solución de la evualación de la semana 1 usando HTML",
     "main": "index.js",
     "scripts": {
